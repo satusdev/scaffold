@@ -68,13 +68,33 @@ Contributions are welcome! If you have an improvement or a new feature, please f
 3.  **Add your changes** and commit them with a conventional commit message.
 4.  **Submit a pull request** with a clear description of your changes.
 
+## ✨ Contributors
+
+<a href="https://github.com/satusdev/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=satusdev/.github&repo=satusdev/gemeni-key-rotator&repo=satusdev/infra-kickstart&repo=satusdev/scaffold" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
 ## Future Enhancements 🔮
 
 We have a few ideas for future enhancements. Feel free to contribute or suggest new ones!
 
-- [ ] Add a Docker setup for containerized development.
-- [ ] Integrate a more comprehensive testing framework.
-- [ ] Add support for TypeScript.
+- **Testing Framework:**
+  - [ ] Integrate a testing framework like [Jest](https://jestjs.io/) or [Vitest](https://vitest.dev/) to enable unit and integration testing.
+- **TypeScript Support:**
+  - [ ] Add support for [TypeScript](https://www.typescriptlang.org/) to improve code quality and maintainability.
+- **Docker Integration:**
+  - [ ] Create a `Dockerfile` and `.dockerignore` to allow for containerized development and deployment.
+- **Environment Variables:**
+  - [ ] Add support for managing environment variables with a library like [dotenv](https://www.npmjs.com/package/dotenv).
+- **Logging:**
+  - [ ] Integrate a structured logger like [Winston](https://www.npmjs.com/package/winston) or [Pino](https://www.npmjs.com/package/pino).
+- **Development Workflow:**
+  - [ ] Add `nodemon` to automatically restart the server on file changes during development.
+- **CI/CD Enhancements:**
+  - [ ] Add a security vulnerability scan (e.g., `npm audit`) to the CI pipeline.
+  - [ ] Generate and report code coverage statistics.
 
 ## Getting Help 🆘
 
